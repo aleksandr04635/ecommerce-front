@@ -1,0 +1,10 @@
+
+ E-commerce using Next.js mongo, tailwind, styled components
+https://www.youtube.com/watch?v=dTFXufTgfOE&t=512s
+https://github.com/dejwid/ecommerce-front
+https://github.com/dejwid/ecommerce-admin
+Coding With Dawid
+mongo without prisma
+pages router
+admin https://github.com/aleksandr04635/ecommerce-admin 
+deployed to https://ecommerce-admin-psi-gules.vercel.app/
