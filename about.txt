@@ -8,3 +8,5 @@ mongo without prisma
 pages router
 admin https://github.com/aleksandr04635/ecommerce-admin 
 deployed to https://ecommerce-admin-psi-gules.vercel.app/
+https://github.com/aleksandr04635/ecommerce-front
+deployed to https://ecommerce-front-psi-one.vercel.app

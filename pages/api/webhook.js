@@ -4,8 +4,9 @@ import { buffer } from "micro";
 import { Order } from "@/models/Order";
 
 //const endpointSecret = "whsec_634d3142fd2755bd61adaef74ce0504bd2044848c8aac301ffdb56339a0ca78d";
-const endpointSecret =
-  "whsec_f9fefc06cea95fd693bcfa0f2f3ad84de060155803646b770a6c27c2b47c7691";
+/* const endpointSecret =
+  "whsec_f9fefc06cea95fd693bcfa0f2f3ad84de060155803646b770a6c27c2b47c7691"; */
+const endpointSecret = process.env.WEBHOOK_SECRET; // "whsec_nIyGFGPvAefYRUHxFSA4i0V6507Hb4A0"
 
 export default async function handler(req, res) {
   await mongooseConnect();
